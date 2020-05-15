@@ -16,4 +16,9 @@ function greetPeople(people) {
   
   */
   var mentors = ['Irina', 'Ashleigh', 'Etza'];
-  var result = greetPeople(mentors)
+  var result = greetPeople(mentors);
+
+// when we do greetings  = greetings + person inside foreach....during te execution of each items of the array it passes 
+// the result of greeting variable to the greeting variable before the foreach and the same case repeats while executing 
+//each items. this is why it goes on adding the elements verytime untill the foreach mehtod stops executing.
+
