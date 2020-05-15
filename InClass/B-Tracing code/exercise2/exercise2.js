@@ -40,5 +40,12 @@ function removeVowelsForWords(words) {
 	Task 2
 	Trace what happens if we call the function removeVowelsForWords with this input: ["Irina", "Etza", "Daniel"]
     expected output?:
+
 */
+var a = removeVowelsForWords(["Irina", "Etza", "Daniel"])
+console.log(a);
+
+//2 answer.......here we made a function for a string and applied that function to
+//each  of the items of the array through the .map method. this is cool anyways.
+
 
